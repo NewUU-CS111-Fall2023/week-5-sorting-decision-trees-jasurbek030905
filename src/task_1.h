@@ -15,11 +15,7 @@ void bubbleSort(vector<string>& titles) {
 int main() {
     vector<string> bookTitles {"Catcher in the Rye", "Pride and Prejudice", "To Kill a Mockingbird",
                                          "The Great Gatsby", "Moby Dick"};
-    for (const auto& title : bookTitles) {
-        cout << title << endl;
-    }
     bubbleSort(bookTitles);
-    cout << "\nSorted list of book titles:\n";
     for (const auto& title :bookTitles) {
         cout << title << endl;
     }
