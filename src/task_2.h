@@ -21,11 +21,7 @@ void selectionSort(vector<int> &denominations) {
 
 int main() {
     vector<int> denominations{8, 3, 12, 6, 1};
-    for (const auto &denomination: denominations) {
-        cout << denomination << endl;
-    }
     selectionSort(denominations);
-    cout << "\nSorted list of denominations:\n";
     for (const auto &denomination: denominations) {
         cout << denomination << endl;
     }
